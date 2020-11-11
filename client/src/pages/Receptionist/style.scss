@@ -1,0 +1,406 @@
+.reception-main-container {
+  margin-top: 100px;
+  height: 100%;
+}
+
+.modal-cambridge-calendar,
+.modal-add-clients,
+.modal-add-events,
+.modal-open-client-calendar,
+.modal-success-app {
+  background-color: rgba(7, 7, 7, 0.664);
+}
+
+.controlPanelHeading {
+  text-align: left;
+  margin: -20px 0 10px 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.petNameResults {
+  text-shadow: -1px 0 rgb(238, 241, 238), 0 1px rgb(32, 233, 14),
+    1px 0 rgb(32, 233, 14), 0 -1px rgb(32, 233, 14);
+  color: rgb(3, 0, 0);
+}
+
+.ownerInfoModal {
+  padding: 10px;
+  background: rgb(247, 247, 207);
+}
+
+.petsCard {
+  padding: 10px;
+}
+
+.emailInptClientForm:not(:focus) {
+  font-style: italic;
+}
+
+.btn-table-clients {
+  display: block;
+  width: 100%;
+  font-weight: 700;
+}
+
+.controlPanelHeadingMobile {
+  display: none;
+}
+
+.buttonsControlPanel,
+.buttonsControlPanelCalendars {
+  font-size: 19px;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0px 5px 25px rgb(255, 255, 255);
+  border: 1px solid rgb(201, 201, 201);
+}
+
+.react-table-component {
+  background-color: #fdfeff;
+  text-align: center;
+}
+
+.pets-in-table {
+  margin-left: -20px;
+}
+
+#petsList {
+  text-align: center;
+  /* margin-top: 30px; */
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+}
+
+.logoutBtnControlPanel {
+  color: navy;
+  border: solid 2px navy;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.addClientsBtnControlPanel {
+  background: rgb(230, 240, 255);
+  margin-bottom: 15px;
+  margin-left: 5px;
+
+  &:hover {
+    text-decoration: none;
+    color: rgb(3, 0, 0);
+    filter: brightness(2);
+  }
+}
+
+.searchClientsBtnControlPanel {
+  background: rgb(216, 245, 130);
+  margin-bottom: 15px;
+  color: black;
+  font-size: 20px;
+  margin-left: 5px;
+  border: none;
+
+  &:hover {
+    text-decoration: none;
+    color: rgb(3, 0, 0);
+    filter: brightness(2);
+  }
+}
+
+.search-input-reception {
+  display: block;
+  width: 100%;
+}
+
+.cambridge-calendar-paola {
+  background: rgb(14, 15, 10);
+  margin-bottom: 15px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-left: 5px;
+
+  &:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    filter: brightness(2);
+  }
+}
+
+.photosBtnControlPanel,
+.photosBtnControlPanel:visited {
+  background: linear-gradient(
+    90deg,
+    rgba(227, 33, 16, 1) 0%,
+    rgba(86, 83, 245, 1) 25%,
+    rgba(145, 172, 16, 1) 52%,
+    rgba(203, 32, 136, 1) 77%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+  margin-left: 5px;
+  padding: 5px;
+  text-decoration: none;
+  transition: all 0.2s;
+  font-size: 19px;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px rgb(255, 255, 255);
+
+  &:hover {
+    text-decoration: none;
+    color: rgb(3, 0, 0);
+    filter: brightness(2);
+  }
+}
+
+.calendars-group {
+  margin-top: 0;
+}
+
+.seeClientsListBtnControlPanel {
+  background: rgb(230, 240, 200);
+  margin-bottom: 15px;
+  margin-left: 5px;
+  /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+  border: none;
+  color: black;
+
+  &:hover {
+    text-decoration: none;
+    color: rgb(3, 0, 0);
+    filter: brightness(2);
+  }
+}
+
+.seePetsListBtnControlPanel {
+  background: rgb(179, 163, 224);
+  margin-bottom: 15px;
+  margin-left: 5px;
+  /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+  border: none;
+  color: black;
+
+  &:hover {
+    text-decoration: none;
+    color: rgb(3, 0, 0);
+    filter: brightness(2);
+  }
+}
+
+.theadingsModalPhoneResults {
+  text-align: center;
+  width: 10%;
+  color: black;
+}
+
+.theadingsById {
+  text-align: center;
+  width: 10%;
+  background-color: #fff;
+}
+
+.tableContentResultsModalPhone {
+  text-align: center;
+}
+
+.react-bootstrap-table .table-responsive {
+  table-layout: fixed;
+}
+
+.tableSearchResults {
+  table-layout: fixed;
+  width: 100%;
+  // background: rgba(209, 221, 230, 0.342);
+  color: black;
+  font-size: 20px;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.tableSearchResultsTitle {
+  text-align: center;
+  width: 100%;
+}
+
+.searchResultsByPetNameSpan {
+  margin-left: 20px;
+  color: black;
+  text-decoration: underline;
+}
+
+.tableHeadings {
+  width: 25%;
+  text-align: center;
+  color: rgb(3, 43, 29);
+}
+
+.buttonsControlPanelCalendars {
+  display: none;
+}
+
+.paolaCalendarBtn {
+  top: 20px;
+  background: white;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(201, 201, 201);
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.claudiaCalendarBtn {
+  background: #99ccff;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(201, 201, 201);
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.dianaCalendarBtn {
+  background: #ffccff;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(201, 201, 201);
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.searchBoxContainerr {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding-top: -25px;
+  border-radius: 10px;
+
+  .searchBox-wrapper {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    background: rgb(29, 28, 28);
+    padding: 5px;
+    border: 5px solid rgb(240, 230, 230);
+    border-radius: 10px;
+  }
+}
+
+.searchBoxTitles {
+  text-align: center;
+  color: rgb(247, 247, 245);
+}
+
+.searchButtons {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+  background: rgb(238, 204, 14);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.clearSearchResultsButton {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  background: rgb(255, 230, 0);
+  color: rgb(8, 5, 22);
+  border-radius: 10px;
+}
+
+#WaitingList {
+  margin-top: 25px;
+}
+
+.fa-chevron-circle-down {
+  margin-left: 5px;
+}
+
+@media only screen and (min-device-width: 760px) and (max-device-width: 1200px) {
+  .searchBox-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 759px) {
+  .searchBox-wrapper {
+    width: 100% !important;
+    display: grid;
+    // grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .searchBoxTitles {
+    font-size: 18px;
+  }
+
+  .searchBox-wrapper {
+    width: 60%;
+  }
+}
+
+@media (max-width: 450px) {
+  .controlPanelHeading {
+    display: none;
+  }
+
+  .control-panel-container {
+    margin-top: -40px;
+  }
+
+  .clientsList-mainTitle {
+    font-size: 20px;
+  }
+
+  .btn-table-clients {
+    display: block;
+    width: 100%;
+    font-size: 10px !important;
+    padding: 2px !important;
+  }
+
+  .searchById-input {
+    width: 15%;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .searchByClientLabel {
+    font-size: 16px !important;
+  }
+
+  .pets-in-table {
+    margin-left: -40px;
+  }
+
+  .react-table-component {
+    background-color: #fdfeff;
+    text-align: left;
+    font-size: 10px;
+  }
+
+  .controlPanelHeadingMobile {
+    display: block;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 24px;
+  }
+
+  .buttonsControlPanel {
+    font-size: 17px;
+    width: 45%;
+    display: inline-block;
+    margin-left: 0px;
+  }
+
+  .buttonsControlPanelCalendars {
+    font-size: 17px;
+    width: 45%;
+    display: inline-block;
+    margin-left: 0px;
+  }
+}

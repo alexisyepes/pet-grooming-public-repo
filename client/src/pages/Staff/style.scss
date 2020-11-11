@@ -1,0 +1,172 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+main {
+  display: block; /* new */
+  width: 200px;
+}
+
+.adminPageContainer {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 60px; /* height of your footer */
+}
+
+.admin-panel-sec-container {
+  background: rgba(255, 255, 255, 0.699);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+#lastName,
+#firstName,
+#phone,
+#petName,
+#breed,
+#notes {
+  float: right;
+}
+
+.formBox {
+  border: 1px solid;
+  color: white;
+  background: rgba(56, 76, 100, 0.897);
+  padding: 15px;
+}
+
+.update-employee-btn {
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+  border-radius: 10px;
+  background-color: teal;
+  color: white;
+  padding: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.clientsTable {
+  overflow-x: auto;
+  overflow: scroll;
+}
+
+.signOutLink {
+  display: none;
+}
+
+.welcomeAdminMessage {
+  text-align: center;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.control-panel-admin-btn-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: center;
+}
+
+.buttons-control-panel-admin {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: all 0.2s;
+  box-shadow: 0px 5px 5px black;
+  padding: 5px 15px;
+  outline: 0;
+
+  &:hover {
+    transform: scale(1.02);
+    background-color: rgb(48, 58, 87);
+    color: white;
+  }
+
+  &__receptionist {
+    background-color: rgb(0, 255, 255);
+  }
+
+  &__employees {
+    background-color: rgb(202, 241, 160);
+  }
+
+  &__clientRegistration {
+    background-color: rgb(200, 200, 200);
+  }
+
+  &__commissionReceptionist {
+    background-color: rgb(178, 178, 238);
+  }
+
+  &__commissionAdmin {
+    background-color: rgb(252, 217, 173);
+  }
+
+  &__cambridgeClients {
+    background-color: rgb(189, 93, 93);
+    color: white;
+  }
+}
+
+.buttonsControlPanelManageEmployees {
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+.commissions-container {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  padding: 10px;
+}
+
+.right-calculations {
+  background-color: rgba(163, 253, 238, 0.541);
+  padding: 10px;
+  border-radius: 10px;
+  height: 100%;
+  overflow: visible;
+}
+
+.left-commissions {
+  background-color: rgb(120, 195, 201);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.result-claudia-container {
+  padding: 0 10px;
+}
+
+.calculation-subtitle {
+  padding-top: 10px;
+}
+
+.pets-list-claudia-container {
+  max-height: 140px;
+  overflow: auto;
+}
+
+@media (max-width: 360px) {
+  // .signOutLink {
+  // 	display: block;
+  // }
+
+  .welcomeAdminMessage {
+    margin-top: 45px;
+  }
+
+  .buttonsControlPanelManageEmployees {
+    font-size: 17px;
+    width: 100%;
+    display: block;
+    margin-left: 0px;
+  }
+}

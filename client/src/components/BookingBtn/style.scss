@@ -1,0 +1,33 @@
+.booking-btn {
+  font-size: 22px;
+  padding: 10px 20px;
+  border-radius: 7px;
+  background-color: rgb(235, 255, 58);
+  font-weight: 800;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 30px rgb(242, 243, 152);
+    border: none;
+  }
+}
+
+@media only screen and (min-device-width: 960px) and (max-width: 1199px) {
+  .booking-btn {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-device-width: 760px) and (max-width: 959px) {
+  .booking-btn {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+}
+
+@media only screen and (min-device-width: 220px) and (max-width: 759px) {
+  .booking-btn {
+    display: none;
+  }
+}

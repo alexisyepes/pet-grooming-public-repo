@@ -1,0 +1,245 @@
+.controlPanelHeading {
+	text-align: center;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+
+.petNameResults {
+	text-shadow: -1px 0 rgb(238, 241, 238), 0 1px rgb(32, 233, 14),
+		1px 0 rgb(32, 233, 14), 0 -1px rgb(32, 233, 14);
+}
+
+.ownerInfoModal {
+	padding: 10px;
+	background: rgb(247, 247, 207);
+}
+
+.petsCard {
+	padding: 10px;
+}
+
+.emailInptClientForm:not(:focus) {
+	font-style: italic;
+}
+
+.btn-table-clients {
+	display: block;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.controlPanelHeadingMobile {
+	display: none;
+}
+
+.buttonsControlPanel,
+.buttonsControlPanelCalendars {
+	font-size: 19px;
+}
+
+#clientsList {
+	text-align: center;
+	margin-top: 30px;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#petsList {
+	text-align: center;
+	margin-top: 30px;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.logoutBtnControlPanel {
+	color: navy;
+	border: solid 2px navy;
+	margin-bottom: 15px;
+	margin-left: 5px;
+}
+
+.addClientsBtnControlPanel {
+	background: rgb(230, 240, 255);
+	margin-bottom: 15px;
+	margin-left: 5px;
+	/* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+	border: solid 2px black;
+}
+
+.searchClientsBtnControlPanel {
+	background: rgba(153, 204, 0);
+	margin-bottom: 15px;
+	/* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+	border: solid 2px black;
+	color: black;
+	font-size: 20px;
+}
+
+.calendars-group {
+	margin-top: 15px;
+}
+
+.cal-all {
+	margin-top: 10px;
+}
+
+.seeClientsListBtnControlPanel {
+	background: rgb(230, 240, 200);
+	margin-bottom: 15px;
+	margin-left: 5px;
+	border: solid 2px black;
+}
+
+.seePetsListBtnControlPanel {
+	background: rgb(179, 163, 224);
+	margin-bottom: 15px;
+	margin-left: 5px;
+	border: solid 2px black;
+}
+
+.theadingsModalPhoneResults {
+	text-align: center;
+	width: 10%;
+}
+
+.tableContentResultsModalPhone {
+	text-align: center;
+}
+
+.tableSearchResults {
+	table-layout: fixed;
+	width: 100%;
+	background: rgba(209, 221, 230, 0.342);
+	color: black;
+	font-size: 20px;
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.tableSearchResultsTitle {
+	text-align: center;
+	width: 100%;
+}
+
+.searchResultsByPetNameSpan {
+	margin-left: 20px;
+	color: black;
+	text-decoration: underline;
+}
+
+.tableHeadings {
+	width: 25%;
+	text-align: center;
+	color: rgb(3, 43, 29);
+}
+
+.buttonsControlPanelCalendars {
+	display: none;
+}
+
+.paolaCalendarBtn {
+	top: 20px;
+	background: white;
+	margin-left: 5px;
+	margin-bottom: 15px;
+	border: 2px solid black;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.claudiaCalendarBtn {
+	background: #99ccff;
+	margin-left: 5px;
+	margin-bottom: 15px;
+	border: 2px solid black;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.dianaCalendarBtn {
+	background: #ffccff;
+	margin-left: 5px;
+	margin-bottom: 15px;
+	border: 2px solid black;
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.searchForm {
+	background: rgb(44, 45, 75);
+	padding: 5px;
+	border: 5px solid rgb(240, 230, 230);
+	border-radius: 10px;
+	margin: 30px;
+}
+
+.searchBoxContainer {
+	margin-bottom: 15px;
+	background: rgba(42, 200, 214, 0.568);
+	padding-top: -25px;
+	border: 10px solid white;
+	border-radius: 10px;
+}
+
+.searchBoxTitles {
+	text-align: center;
+	color: rgb(247, 247, 245);
+}
+
+.searchButtons {
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	background: rgb(3, 26, 153);
+	color: rgb(253, 252, 252);
+}
+
+.clearSearchResultsButton {
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	background: rgb(255, 230, 0);
+	color: rgb(8, 5, 22);
+	border-radius: 10px;
+}
+
+#WaitingList {
+	margin-top: 25px;
+}
+
+.fa-chevron-circle-down {
+	margin-left: 5px;
+}
+
+@media (max-width: 360px) {
+	.controlPanelHeading {
+		display: none;
+	}
+
+	.btn-table-clients {
+		display: block;
+		width: 100%;
+	}
+
+	.controlPanelHeadingMobile {
+		display: block;
+		text-align: center;
+		text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	}
+
+	.buttonsControlPanel {
+		font-size: 17px;
+		width: 45%;
+		display: inline-block;
+		margin-left: 0px;
+	}
+
+	.buttonsControlPanelCalendars {
+		font-size: 17px;
+		width: 45%;
+		display: inline-block;
+		margin-left: 0px;
+	}
+}

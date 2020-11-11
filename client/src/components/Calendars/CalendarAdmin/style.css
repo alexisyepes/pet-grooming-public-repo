@@ -1,0 +1,80 @@
+.cal-main-container {
+  max-height: 100vh;
+  overflow: auto;
+}
+
+.calendars-wrapper {
+  height: 800px;
+  margin-left: 0;
+  background-color: #fff;
+  -webkit-filter: drop-shadow(0px 15px 15px #e4e4e4);
+  filter: drop-shadow(0px 15px 15px #d8d7d7);
+}
+
+.input-search-appointments {
+  width: 90%;
+  margin: 10px auto 0 auto;
+  display: block;
+  padding: 10px;
+  border: 1px solid rgb(177, 177, 177) !important;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.time-on-modal {
+  margin: 15px auto;
+  text-align: center;
+}
+
+.input-search-appointments-btn {
+  outline: 0;
+  margin: 10px auto;
+  padding: 6px 20px;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  width: 90%;
+  color: white;
+  border: none;
+  background-color: rgb(221, 207, 14);
+  font-size: 18px;
+  font-weight: 800;
+  text-shadow: 1px 1px rgb(112, 31, 31);
+  -webkit-filter: drop-shadow(0px 5px 5px #838383);
+  filter: drop-shadow(0px 5px 5px #7c7c7c);
+}
+
+.searchContainer-appointments {
+  width: 95%;
+  position: absolute;
+  top: 50px;
+  z-index: 10;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(177, 177, 177) !important;
+  -webkit-filter: drop-shadow(0px 15px 15px#646464);
+  filter: drop-shadow(0px 15px 15px #646464);
+}
+
+.appointment-type-select {
+  text-align: center;
+}
+
+.searchAppointmentsButton,
+.searchAppointmentsButton:active {
+  outline: 0;
+  background: rgb(14, 77, 97);
+  font-size: 20px;
+  margin: 10px auto 0 auto;
+  padding: 5px 20px;
+  float: right;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px rgb(112, 31, 31);
+}
+
+.searchAppointmentsButton:focus {
+  background: rgb(14, 147, 180);
+  outline: 0;
+}

@@ -1,0 +1,152 @@
+@mixin margin-top-big {
+  margin-top: 70px;
+}
+
+@mixin margin-top-medium {
+  margin-top: 40px;
+}
+
+@mixin margin-top-small {
+  margin-top: 20px;
+}
+
+.margin-top-big {
+  @include margin-top-big();
+}
+
+.margin-top-medium {
+  @include margin-top-medium();
+}
+
+.margin-top-small {
+  @include margin-top-small();
+}
+
+.commission-parent-container {
+  background-color: rgba(16, 238, 9, 0.26);
+  height: 100%;
+  width: 100%;
+  padding: 15px 10px;
+  margin: 0;
+}
+
+.addPet-btn {
+  margin-top: 10px;
+}
+
+.update-info-commission {
+  background-color: rgb(40, 146, 141);
+  color: white;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  box-shadow: 0px 10px 20px black;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+    background-color: rgb(20, 92, 88);
+  }
+}
+
+.time-content {
+  background-color: rgb(2, 51, 124);
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 20px 30px black;
+}
+
+.form-commission {
+  margin-top: 10px;
+}
+
+.form-edit-commission {
+  background-color: rgb(167, 223, 220);
+  padding: 10px;
+}
+
+.commission-btn {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  padding: 5px 15px;
+  border-radius: 5px;
+
+  &_claudia {
+    background-color: rgb(127, 168, 209);
+  }
+  &_diana {
+    background-color: rgb(241, 182, 237);
+  }
+  &_paola {
+    background-color: rgb(252, 248, 229);
+  }
+  &_groomer {
+    background-color: rgb(241, 240, 143);
+  }
+}
+
+.tdata-commission {
+  &_time {
+    width: 10%;
+  }
+}
+
+.btn-phone-icon-commission {
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 20px 25px black;
+  padding-top: 5px;
+  transition: all 0.1s;
+  &:hover {
+    background-color: rgb(139, 218, 139);
+    transform: scale(1.1);
+  }
+}
+
+.phone-icon-commission {
+  font-size: 22px;
+  text-align: center;
+  backface-visibility: hidden;
+}
+
+.commission-groomers-info {
+  margin-top: 20px;
+  height: 100%;
+  color: white;
+  display: block;
+  border: 1px solid rgb(94, 91, 91);
+
+  &_claudia {
+    background-color: rgb(127, 168, 209);
+  }
+
+  &_diana {
+    background-color: rgb(241, 182, 237);
+  }
+  &_paola {
+    background-color: rgb(252, 248, 229);
+  }
+  &_groomer {
+    background-color: rgb(241, 240, 143);
+  }
+}
+
+.commission-subheading {
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.theading-commission {
+  text-align: center;
+  text-transform: uppercase;
+}

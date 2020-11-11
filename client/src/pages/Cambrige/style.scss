@@ -1,0 +1,35 @@
+.cambridge-container {
+  width: 100%;
+  display: block;
+}
+
+.cambridge-heading {
+  text-align: center;
+}
+
+.cambridge-by-appointment {
+  font-size: 18px;
+  background-color: #003c4b;
+  color: white;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 40%;
+  padding: 5px;
+}
+
+.important-size-cambridge {
+  color: rgb(255, 196, 0);
+  font-weight: 800;
+  text-shadow: 1px 1px 1px black;
+}
+
+@media only screen and (min-device-width: 200px) and (max-width: 599px) {
+  .cambridge-by-appointment {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .important-size-cambridge {
+    display: block;
+  }
+}

@@ -1,0 +1,36 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(/images/coolbackground.jpg);
+	/* Full height */
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* font-family: "Baloo", cursive; */
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 6 00;
+	background-position: center center;
+	background-attachment: fixed;
+	padding-bottom: 60px;
+	position: relative;
+	margin: 0;
+	min-height: 100%;
+	overflow: auto;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	background-color: rgb(11, 94, 248);
+	border-radius: 100px;
+	padding: 15px;
+}

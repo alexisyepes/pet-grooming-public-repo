@@ -1,0 +1,688 @@
+.edit-client-container {
+  margin-top: 80px;
+}
+
+.client-form-to-edit-container {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid navy;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card-body {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  border-radius: 5px;
+
+  /* padding: 15px; */
+  /* margin-bottom: 20px; */
+}
+
+.agree-with-photo-editPage {
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+}
+
+.do-not-agree-with-photo-editPage {
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  color: rgb(255, 10, 10);
+}
+
+.petAddBtn {
+  border: 3px solid white;
+  font-size: 30px;
+  margin-top: 20px;
+  width: 100%;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.selectOptionGroomerEditComment {
+  margin-top: -70px;
+}
+
+.selectOptionGroomerAddComment {
+  margin-top: -50px;
+}
+
+.petInfo-container {
+  /* flex-direction: row; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.notesForPets {
+  color: orangered;
+}
+
+.pet-info-left {
+  flex: 4;
+}
+
+.pet-pic {
+  width: 160px;
+  height: 150px;
+  background: rgb(209, 202, 202);
+  border-radius: 20px;
+}
+/* .pet-pic-img {
+	width: 150px;
+	height: 130px;
+	border-radius: 20px;
+	padding: 10px;
+	margin-left: -8px;
+} */
+
+/* IMG Hover effect*/
+.pet-pic-photo {
+  opacity: 1;
+  display: block;
+  width: 160px;
+  height: 150px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-left: -15px;
+}
+.pet-pic-img {
+  opacity: 1;
+  display: block;
+  width: 120px;
+  height: 150px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.middleTest {
+  cursor: pointer;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  /* left: 10%; */
+  transform: translate(-5%, -5%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.containerTest {
+  position: relative;
+  /* width: 25%; */
+}
+.containerTest:hover .pet-pic-img {
+  opacity: 0.1;
+}
+.containerTest:hover .pet-pic-photo {
+  opacity: 0.1;
+}
+.containerTest:hover .middleTest {
+  opacity: 1;
+}
+
+.goBackToControlPanelLink {
+  font-size: 25px;
+  color: white;
+}
+
+.goBackToControlPanelBtn {
+  font-size: 25px;
+  width: 100%;
+  color: white;
+  background: #0f2027;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.petsListTitle {
+  text-align: center;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.tableSearchResultsComments {
+  table-layout: fixed;
+  width: 100%;
+  background: rgb(242, 250, 137);
+  color: rgb(10, 0, 0);
+  border: 2px solid rgb(87, 88, 9);
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 20px;
+}
+
+.tableCellsCommentsDate {
+  width: 10%;
+}
+
+.tableCellsCommentsGroomer {
+  width: 10%;
+}
+
+.tableCellsCommentsComment {
+  width: 60%;
+}
+
+.tableCellsCommentsButtons {
+  width: 20%;
+}
+
+.updateClientTitleForm {
+  text-align: center;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 35px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+.deleteComment-btnSubmit {
+  background: rgb(255, 0, 0);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.updateComment-btnSubmit {
+  margin-right: 5px;
+  background: rgb(0, 204, 255);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.noPetsYetTitle {
+  text-align: center;
+  color: white;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.petEditBtn,
+.addCommentBtn {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.petNameCommentsForm {
+  background: rgb(37, 59, 100);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.notesHistoryTitle {
+  font-size: 35px;
+  width: 100%;
+  text-align: center;
+  /* margin-left: 50%;
+	margin-right: 50%; */
+}
+
+.addCommentForm {
+  background: rgb(247, 232, 190);
+  padding: 20px;
+}
+
+.container-btns-edit-client {
+  // margin-top: 50px;
+}
+
+.petCommentBtn {
+  background-color: rgb(255, 223, 42);
+}
+
+.petUpdateBtn {
+  background-color: rgb(21, 171, 197);
+  color: white;
+}
+
+.petDeleteBtn {
+  background-color: rgb(255, 42, 42);
+  color: white;
+}
+
+.petCommentBtn,
+.petUpdateBtn,
+.petDeleteBtn {
+  margin-top: 20px;
+  margin-right: 5px;
+  width: 31%;
+  border: 3px solid white;
+  border-radius: 5px;
+  /* display: inline-block; */
+}
+
+.titleComments {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* @media (max-width: 360px) {
+	.petCommentBtn,
+	.petUpdateBtn,
+	.petDeleteBtn {
+		margin-top: 10px;
+		width: 100%;
+		border: 3px solid white;
+	}
+
+	.tableSearchResultsComments {
+		table-layout: fixed;
+		width: 100%;
+		font-size: 15px;
+	}
+
+	.selectOptionGroomerEditComment {
+		margin-top: 15px;
+	}
+
+	.selectOptionGroomerAddComment {
+		margin-top: 15px;
+	}
+
+	.deleteComment-btnSubmit {
+		font-size: 10px;
+	}
+
+	.updateComment-btnSubmit {
+		font-size: 10px;
+		margin-bottom: 5px;
+	}
+
+	.tableCellsCommentsDate {
+		width: 18%;
+	}
+
+	.tableCellsCommentsComment {
+		width: 50%;
+	}
+
+	.tableCellsCommentsButtons {
+		width: 25%;
+	}
+}
+
+@media (min-width: 415px) and (max-width: 768px) {
+	.selectOptionGroomerAddComment {
+		margin-top: 55px;
+	}
+
+	.selectOptionGroomerEditComment {
+		margin-top: 55px;
+	}
+
+	.commentSectionAddComment {
+		margin-top: 25px;
+	}
+
+	.commentSectionEditComment {
+		margin-top: 22px;
+	}
+
+	.petCommentBtn,
+	.petUpdateBtn,
+	.petDeleteBtn {
+		width: 100%;
+	}
+} */
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1199px) {
+  .selectOptionGroomerEditComment {
+    margin-top: 55px;
+  }
+
+  .commentSectionEditComment {
+    margin-top: 23px;
+  }
+  .tableCellsCommentsDate {
+    width: 10%;
+  }
+
+  .tableCellsCommentsGroomer {
+    width: 10%;
+  }
+
+  .tableCellsCommentsComment {
+    width: 50%;
+  }
+
+  .tableCellsCommentsButtons {
+    width: 30%;
+  }
+
+  .commentSectionAddComment {
+    margin-top: 23px;
+  }
+
+  .selectOptionGroomerAddComment {
+    margin-top: 55px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1024px) {
+  /* .petInfo-container {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(50px, 2fr));
+	} */
+  /* .petInfo-container {
+		display: flexbox;
+	} */
+
+  .selectOptionGroomerEditComment {
+    margin-top: 55px;
+  }
+
+  .commentSectionEditComment {
+    margin-top: 23px;
+  }
+  .commentSectionAddComment {
+    margin-top: 23px;
+  }
+
+  .selectOptionGroomerAddComment {
+    margin-top: 55px;
+  }
+
+  .pet-pic-photo {
+    width: 150px;
+    height: 130px;
+  }
+  .pet-pic-img {
+    width: 120px;
+    height: 130px;
+  }
+
+  .pet-pic {
+    width: 150px;
+    height: 130px;
+    background: rgb(209, 202, 202);
+    border-radius: 20px;
+    margin-left: -10%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+  /* .petInfo-container {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	} */
+
+  .selectOptionGroomerEditComment {
+    margin-top: 55px;
+  }
+
+  .commentSectionEditComment {
+    margin-top: 23px;
+  }
+
+  .tableCellsCommentsDate {
+    width: 10%;
+  }
+
+  .tableCellsCommentsGroomer {
+    width: 15%;
+  }
+
+  .tableCellsCommentsComment {
+    width: 30%;
+  }
+
+  .tableCellsCommentsButtons {
+    width: 15%;
+  }
+
+  .commentSectionAddComment {
+    margin-top: 23px;
+  }
+
+  .selectOptionGroomerAddComment {
+    margin-top: 55px;
+  }
+
+  .petInfo-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .pet-info-left {
+    text-align: center;
+  }
+  .pet-pic-photo {
+    width: 150px;
+    height: 130px;
+  }
+  .pet-pic-img {
+    width: 120px;
+    height: 130px;
+  }
+
+  .pet-pic {
+    width: 150px;
+    height: 130px;
+    background: rgb(209, 202, 202);
+    border-radius: 20px;
+    margin-left: 22%;
+  }
+
+  /* .pet-pic {
+		margin-left: 22%;
+	} */
+
+  .uploadImageButton {
+    margin-bottom: 30px;
+  }
+
+  .petCommentBtn {
+    margin-top: 70px;
+    width: 100%;
+  }
+
+  .petUpdateBtn,
+  .petDeleteBtn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+  .tableCellsCommentsDate {
+    width: 10%;
+  }
+
+  .tableCellsCommentsGroomer {
+    width: 15%;
+  }
+
+  .tableCellsCommentsComment {
+    width: 20%;
+  }
+
+  .tableCellsCommentsButtons {
+    width: 15%;
+  }
+  .petInfo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+  }
+
+  .petsList-parent {
+    // margin-top: -100px;
+  }
+
+  .pet-list-container-edit-client {
+    border-radius: 5px;
+    // margin-top: -100px;
+  }
+
+  .pet-info-left {
+    text-align: left;
+    display: inline-block;
+  }
+  .pet-pic-photo {
+    width: 150px;
+    height: 130px;
+    display: inline-block;
+  }
+  .pet-pic-img {
+    width: 120px;
+    height: 130px;
+  }
+
+  .pet-pic {
+    width: 150px;
+    height: 130px;
+  }
+
+  .selectOptionGroomerAddComment {
+    margin-top: 55px;
+  }
+
+  .selectOptionGroomerEditComment {
+    margin-top: 55px;
+  }
+
+  .commentSectionAddComment {
+    margin-top: 25px;
+  }
+
+  .commentSectionEditComment {
+    margin-top: 22px;
+  }
+
+  .petCommentBtn,
+  .petUpdateBtn,
+  .petDeleteBtn {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 250px) and (max-device-width: 420px) {
+  .tableCellsCommentsDate {
+    width: 10%;
+  }
+
+  .form-control {
+    padding: 0;
+  }
+
+  .updateClientTitleForm {
+    margin-top: 0;
+    font-size: 18px;
+  }
+
+  .goBackToControlPanelBtn {
+    margin-top: 0;
+    font-size: 14px;
+  }
+
+  .petsListTitle,
+  .pet-info-subTitle {
+    font-size: 24px;
+  }
+
+  .pet-info-subTitle {
+    margin-top: -10px;
+  }
+
+  .pet-info-parags {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .pet-list-container-edit-client {
+    // margin-top: -100px;
+  }
+
+  .tableCellsCommentsGroomer {
+    width: 25%;
+  }
+
+  .tableCellsCommentsComment {
+    width: 15%;
+  }
+
+  .tableCellsCommentsButtons {
+    width: 5%;
+  }
+  .petInfo-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .pet-info-left {
+    text-align: center;
+  }
+  .pet-pic-photo {
+    width: 150px;
+    height: 130px;
+  }
+  .pet-pic-img {
+    width: 120px;
+    height: 130px;
+  }
+  .pet-pic {
+    width: 150px;
+    height: 130px;
+    margin-left: 25%;
+  }
+
+  .uploadImageButton {
+    margin-bottom: 30px;
+  }
+
+  .petCommentBtn {
+    margin-top: 80px;
+    width: 100%;
+  }
+
+  .petUpdateBtn,
+  .petDeleteBtn {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+  }
+  .tableSearchResultsComments {
+    table-layout: fixed;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .selectOptionGroomerEditComment {
+    margin-top: 15px;
+  }
+
+  .selectOptionGroomerAddComment {
+    margin-top: 15px;
+  }
+
+  .deleteComment-btnSubmit {
+    font-size: 10px;
+  }
+
+  .updateComment-btnSubmit {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  .tableCellsCommentsDate {
+    width: 18%;
+  }
+
+  .tableCellsCommentsComment {
+    width: 50%;
+  }
+
+  .tableCellsCommentsButtons {
+    width: 25%;
+  }
+
+  .cardBodyParent {
+    margin-bottom: 60px;
+  }
+
+  .petsList-parent {
+    margin-top: -60px;
+  }
+}

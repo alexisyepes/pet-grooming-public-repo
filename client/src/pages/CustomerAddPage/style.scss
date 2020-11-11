@@ -1,0 +1,231 @@
+@mixin text-align-center {
+  text-align: center;
+}
+@mixin text-align-justify {
+  text-align: justify;
+}
+
+@mixin white-line {
+  background-color: white;
+}
+
+@mixin black-line {
+  background-color: black;
+}
+
+.hr-white {
+  @include white-line;
+}
+
+.hr-black {
+  @include black-line;
+}
+
+.text-align-center {
+  @include text-align-center();
+}
+
+.text-align-justify {
+  @include text-align-justify();
+}
+
+.termsAndConditions-parent {
+  padding: 10px 30px;
+  background-color: white;
+  border: 3px solid green;
+  border-radius: 5px;
+  box-shadow: 0 2px 20px black;
+}
+
+.terms-and-conditions-important {
+  font-weight: 700;
+  background-color: rgb(191, 241, 191);
+  padding: 1px 5px;
+}
+
+.terms-and-conditions-important-vaccines {
+  font-weight: 700;
+  background-color: rgb(210, 221, 210);
+  padding: 1px 5px;
+}
+
+.logoutBtnControlPanel-registration {
+  box-shadow: 0 2px 10px black;
+}
+
+.logout-btn-parent {
+  position: absolute;
+  right: 0;
+}
+
+.logo-client-registration-parent {
+  position: absolute;
+  left: 20;
+}
+
+.logo-client-registration {
+  width: 30%;
+}
+
+.form-registration-subheading {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.controlPanelHeading-register {
+  font-size: 35px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-shadow: 2px 2px rgb(255, 255, 255);
+  word-spacing: 10px;
+}
+
+.client-registration-content {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.registration-paragraph {
+  font-size: 16px;
+}
+
+.input-field-registration {
+  margin-top: 10px;
+}
+
+.email-registration-paragraph {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.agree-with-terms {
+  margin-top: 10px;
+  background-color: rgb(88, 103, 117);
+  padding: 0 30px;
+  color: rgb(255, 255, 255);
+}
+
+.photo-release {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-align: justify;
+}
+
+.form-registration-container {
+  border: 10px double #0a3055;
+  border-radius: 5px;
+  box-shadow: 0 2px 20px black;
+  background: #fafcfdd5;
+  padding: 10px;
+  animation: formOpacity 2s ease-out;
+}
+
+.error-message-registration {
+  color: red;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.checkbox-registration {
+  transform: scale(3);
+  margin-right: 20px;
+}
+
+.box-right-registration-container {
+  color: rgb(255, 255, 255);
+}
+
+.left-arrow-registration {
+  margin: 0 30px;
+  transition: all linear 2s;
+  font-size: 30px;
+  display: inline-block;
+
+  animation: moveRightPhone 2s ease-out infinite;
+}
+
+.right-arrow-registration {
+  margin: 0 10px;
+  transition: all linear 2s;
+  font-size: 120px;
+  float: right;
+  color: yellow;
+  margin-top: -40px;
+  animation: moveRightArrow 2s ease-out infinite;
+}
+
+.box-registration-text {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.signout-form-err-msg {
+  color: red;
+  margin-top: 20px;
+}
+
+.button-flashing-submit {
+  animation: colorFlashing 2s ease-in-out infinite;
+  transition: all 2s;
+  color: black;
+}
+
+@keyframes colorFlashing {
+  0% {
+    background-color: rgb(0, 255, 0);
+  }
+
+  25% {
+    background-color: rgb(88, 238, 88);
+  }
+
+  50% {
+    background-color: rgb(217, 243, 217);
+  }
+
+  75% {
+    background-color: rgb(88, 238, 88);
+  }
+
+  100% {
+    background-color: rgb(18, 230, 18);
+  }
+}
+
+@keyframes moveRightPhone {
+  0% {
+    opacity: 0.5;
+    transform: translateX(40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(-30);
+  }
+}
+
+@keyframes moveRightArrow {
+  0% {
+    color: yellow;
+    transform: translateX(-40px);
+  }
+
+  50% {
+    color: rgb(240, 240, 240);
+  }
+
+  100% {
+    color: rgb(255, 196, 0);
+    transform: translateX(20px);
+  }
+}
+
+@keyframes formOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
