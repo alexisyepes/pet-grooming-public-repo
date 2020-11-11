@@ -82,6 +82,7 @@ class index extends Component {
       modalToSearchClientByPhone: false,
       modalToSeeFormAndEditComments: false,
       loadingAxiosRequest: false,
+      errorMsg: "",
     };
   }
 
@@ -295,6 +296,12 @@ class index extends Component {
       notes: this.state.notes,
       allowPhoto: this.state.allowPhotoIsChecked,
     };
+
+    if (!obj.name || !obj.breed || !obj.type) {
+      return this.setState({
+        errorMsg: "Name, breed and type cannot be empty!",
+      });
+    }
 
     let ClientId = this.state.client.id;
 
@@ -1076,16 +1083,6 @@ class index extends Component {
                     Submit Changes
                   </Button>
                   <div className="form-group">
-                    {/* <input
-                      style={{
-                        fontSize: "25px",
-                        background: "navy",
-                        border: "2px solid white",
-                      }}
-                      type="submit"
-                      value="Submit Changes"
-                      className="btn btn-primary"
-                    /> */}
                     <Button
                       className="petAddBtn"
                       onClick={this.toggleModalForAddingPets}
@@ -1104,6 +1101,7 @@ class index extends Component {
             {petsList}
           </div>
 
+          {/* Modal to add Pets */}
           <div className="col-sm-6">
             <Modal
               isOpen={this.state.modalForAddingPets}
@@ -1162,6 +1160,9 @@ class index extends Component {
                         understands that he/she will not receive financial
                         compensation of any type associated with this material.
                       </span>
+                    </p>
+                    <p className="text-center text-danger">
+                      {this.state.errorMsg}
                     </p>
                     <Button
                       className="petUpdateBtn"
