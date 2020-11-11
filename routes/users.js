@@ -9,9 +9,9 @@ const jwt = require("jsonwebtoken");
 // Register
 router.post(
   "/signup",
-  // passport.authenticate("jwt", {
-  //   session: false,
-  // }),
+  passport.authenticate("jwt", {
+    session: false,
+  }),
   (req, res) => {
     console.log(req.body);
 
