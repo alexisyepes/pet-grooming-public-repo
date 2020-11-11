@@ -43,10 +43,10 @@ https://pet-grooming-public-repo.herokuapp.com/<br>
 
 # Issues this business faced before implementing this application
 
-- Employees' schedule was handled by writting manually on a physical book
-- Client's ppointments were booked using the same physical book by hand
+- Employees' schedule was handled by writing manually on a physical book
+- Client's appointments were booked using the same physical book by hand
 - Staff only had access to clients database locally from one computer
-- Physical files were over 6000 and the number was increasing rapidily occupying too much actual space on the shelves
+- Physical files were over 6000 and the number was increasing rapidly occupying too much actual space on the shelves
 - In the event of a fire or robbery, all records could have been lost with no possible way to recover
 - For every pet, the clients needed to fill out a separate form to keep records of the services provided
 - The static website they had was not responsive to small screens
@@ -55,7 +55,7 @@ https://pet-grooming-public-repo.herokuapp.com/<br>
 
 ### Database type
 
-The existing clients database on the local computer had the option to be extracted as a Excel format, therefore, I was able to convert it into csv format and import it into MySql Workbench to avoid the need to manually enter the 6000+ clients into our dabatase.
+The existing clients database on the local computer had the option to be extracted as a Excel format, therefore, I was able to convert it into csv format and import it into MySql Workbench to avoid the need to manually enter the 6000+ clients into our database.
 <br>
 
 #### MySql Tables and GraphQl Server
@@ -129,7 +129,7 @@ Clients can book appointments online by choosing from two different cities, and 
 - SASS
 - Bootstrap
 - Apollo Client
-- Adobe Illustrator and Photoshop
+- Adobe Illustrator and PhotoShop
 
 ## Back End
 
@@ -143,7 +143,7 @@ Clients can book appointments online by choosing from two different cities, and 
 
 ## Deployment
 
-Netlify at first to support the static pages only, and then it was transfered to Heroku for database support
+Netlify at first to support the static pages only, and then it was transferred to Heroku for database support
 
 # Link to live site on Heroku
 
